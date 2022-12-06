@@ -92,6 +92,8 @@ git clone https://copied_url
 
 > **Note:** Open git bash in the directory you want this repository to be cloned.
 
+After cloning open the project with VsCode and install the recommended extensions.
+
 **3. Add Remote**
 
 When you cloned the forked repository onto your local computer, git automatically added a remote repository named “origin” pointing to the forked repository on GitHub. This means that when you do `git add`/`git commit`/`git push` you can push your local changes to the forked repository.
