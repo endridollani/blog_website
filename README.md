@@ -7,7 +7,9 @@ In this repository , together we will collaborate to implement a blogging websit
 > **NOTE:** You will also find the design in google drive, as a pdf file.
 
 The website that we will be working on is hosted using [github paged](https://docs.github.com/en/pages/quickstart).
-Every change merged in the main branch we will be able to see live _after some minutes until the deployment process finished_ in this [link](https://endridollani.github.io/blog_website/) .
+Every change merged in the main branch we will be able to see live _after some minutes until the deployment process finished_.
+
+[Blog Live 🚧](https://endridollani.github.io/blog_website/)
 
 ### Getting Started
 
