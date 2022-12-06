@@ -9,6 +9,8 @@ For each seance create a folder and inside it add that seance homework.
 
 > _ex:_ seance_7 inside witch will be the Home Works of seance_7
 
+> **Note:** Rename styles.css file to index.css
+
 ### Benefits
 
 Doing something like this will help each one of you grasp the process of implementation and deployment of a website. It will also improve your knowledge of Git and GitHub.
