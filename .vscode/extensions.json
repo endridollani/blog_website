@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "zhuangtongfa.material-theme",
+        "ecmel.vscode-html-css",
+        "xabikos.javascriptsnippets",
+        "ritwickdey.liveserver"
+    ]
+}
