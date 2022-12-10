@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hotels</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        header{
+            
+            grid-area: header;
+            display: flex;
+            background-color: azure;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        header ul{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            list-style-type:none;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        aside{
+            grid-area: aside;
+            padding: 20px;
+            background-color: rgb(185, 173, 173);
+        }
+        article{
+            grid-area: article;
+            background-color: burlywood;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+                gap: 20px
+            
+
+        }
+        article img {
+            margin-left: 10px;
+            margin-top: 10px;
+            
+        }
+        footer{
+
+            grid-area: footer;
+            background-color: black;
+            padding: 20px;
+            color: white;
+            box-sizing: border-box;
+            justify-content: space-between;
+            
+        }
+        .div-2{
+            width: 25%;
+           padding: 0 15px;
+           text-align: start;
+           box-sizing: border-box;
+           gap: 50px;
+        }
+        footer h4 {
+            text-align:left;
+            padding-left: 40px;
+        }
+        .continer{
+            display: flex;
+           text-align: left;            
+        }
+        footer ul li{
+         text-decoration: none;
+         
+        }
+        footer ul {
+            list-style-type: none;
+        
+        }
+        footer ul li a{
+            color: white;
+        }
+        
+
+        main{
+            display: grid;
+            grid-template-columns: repeat(4 , 1fr);
+           grid-template-areas: "header header header header"
+           "aside aside article article"
+           "footer footer footer footer";
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+        
+            <strong>
+                <img src="./images/logo 12.svg" alt="logo" height="130" width="100"> 
+            </strong>
+            <nav>
+                <ul>
+                <li><a href="#"> Home</a></li>
+                   <li><a href="#">About</a>  </li>
+                <li><a href="#">Contact</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        
+   <aside>
+    <h1>
+    Wikipedia Hotel    </h1>
+    <p>A hotel is an establishment that provides paid lodging on a short-term basis.
+         Facilities provided inside a hotel room may range from a modest-quality mattress in a small room to large suites with bigger, higher-quality beds, a dresser, a refrigerator and other kitchen facilities,
+          upholstered chairs, a flat screen television, and en-suite bathrooms. Small, lower-priced hotels may offer only the most basic guest services and facilities. 
+          Larger, higher-priced hotels may provide additional guest facilities such as a swimming pool, business centre (with computers, printers, and other office equipment), childcare, conference and event facilities, tennis or basketball courts, gymnasium, restaurants, day spa, and social function services.
+           Hotel rooms are usually numbered (or named in some smaller hotels and B&Bs) to allow guests to identify their room. Some boutique, high-end hotels have custom decorated rooms. 
+           Some hotels offer meals as part of a room and board arrangement.
+            In Japan, capsule hotels provide a tiny room suitable only for sleeping and shared bathroom facilities.
+        The precursor to the modern hotel was the inn of medieval Europe. For a period of about 200 years from the mid-17th century, coaching inns served as a place for lodging for coach travelers. 
+        Inns began to cater to richer clients in the mid-18th century. One of the first hotels in a modern sense was opened in Exeter in 1768. Hotels proliferated throughout Western Europe and North America in the early 19th century, and luxury hotels began to spring up in the later part of the 19th century.
+        Hotel operations vary in size, function, complexity, and cost. Most hotels and major hospitality companies have set industry standards to classify hotel types. An upscale full-service hotel facility offers luxury amenities,
+         full-service accommodations, an on-site restaurant, and the highest level of personalized service, such as a concierge, room service, and clothes pressing staff. Full-service hotels often contain upscale full-service facilities with many full-service accommodations,
+          an on-site full-service restaurant, and a variety of on-site amenities. Boutique hotels are smaller independent, non-branded hotels that often contain upscale facilities.
+           Small to medium-sized hotel establishments offer a limited amount of on-site amenities. Economy hotels are small to medium-sized hotel establishments that offer basic accommodations with little to no services. Extended stay hotels are small to medium-sized hotels that offer longer-term full-service accommodations compared to a traditional hotel.</p>
+   </aside>
+   <article>
+    <div> <img src="./images/download (3).jpg" alt="image" height="250px" width="250px"></div>
+    <div><img src="./images/download.jpg" alt="image" height="250px" width="250px"></div>
+    <div><img src="./images/download (5).jpg" alt="image" height="250px" width="250px"></div>
+    <div><img src="images/download (6).jpg" alt="image" height="250px" width="250px"></div>
+   </article>
+   <footer>
+    <div class="continer">
+    <div class="div-2">
+        <h4>
+            Hotels
+        </h4>
+       <p> All hotels and vacation rental properties listed on this website are independently owned and operated. </p>
+    </div>
+    <div class="div-2">
+        <h4>Quick links</h4>
+        <ul>
+            <li><a href="#">All rooms</a></li>
+            <li><a href="#">Restaurant</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Lounge bar</a></li>
+            <li><a href="#"> About us</a></li>
+        </ul>
+    </div>
+    
+    <div class="div-2">
+        <h4>Contacts</h4>
+        <ul>
+            <li><a href=""> +355 69609870</a></li>
+            <li><a href="">info@yahoo.com</a></li>
+            <li><a href="">www.wikipedia.com</a></li>
+
+        </ul>
+    </div>
+    <div class="div-2">
+        <h4>Follow us</h4>
+        <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">facebook</a></li>
+            <li><a href="#">Booking</a></li>
+            <li><a href="#">Tripadvisor</a></li>
+        </ul>
+    </div>
+
+    </div>
+
+    <p>&copy footer </p>
+     </footer>
+
+
+</main>
+</body>
+</html>
