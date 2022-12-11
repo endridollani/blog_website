@@ -56,7 +56,6 @@ header {
     list-style-type: none;
 }
 .list_container ul a {
-    display: flex;
     text-decoration: none;
     padding: 15px;
     color: var(--primary-light-grey);
@@ -95,24 +94,4 @@ header {
 
 .btn:hover {
     background-color: var(--primary-light-grey);
-}
-
-@media screen and (max-width: 840px) {
-    header {
-        display: list-item;
-        height: 150px;
-    }
-    .logo_container {
-        display: flex;
-        justify-content: flex-start;
-        padding: 0;
-    }
-    .list_container {
-        display: flex;
-        padding-top: 17px;
-        padding-right: 5px;
-    }
-    .btn {
-        padding: 10px;
-    }
 }
