@@ -1,0 +1,362 @@
+
+ /*--------------------------------------------------Menü Bar Start--------------------------------------------------------*/
+
+/* part 1 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* part 2 */
+.menu_area a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgb(58, 57, 57);
+    height: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+/* part 3 */
+
+.menu_area a:hover {
+    background: gray;
+    color: #fff;
+}
+
+.menu_area ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.menu_area li {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+/* part 4 */
+
+.menu_area li:hover .dropdown_1>li {
+    top: 0;
+    display: block;
+}
+
+.dropdown_1 li {
+    display: none;
+    position: relative;
+}
+
+.dropdown_1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* part 5 */
+.dropdown_1 li:hover .dropdown_2 li {
+    display: block;
+}
+
+.dropdown_2 li {
+    display: none;
+}
+
+.dropdown_2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+}
+
+/* part 7 */
+
+.banner_area {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(Pic/nature.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.banner_area h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+    font-family: monospace;
+}
+
+
+.img {
+    object-fit: cover;
+    width: 100%
+}
+
+/*--------------------------------------------------Menü Bar End--------------------------------------------------------*/
+ 
+ 
+ 
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    font-family: 'Sen', sans-serif;
+    padding: 40px;
+}
+
+.container {
+
+    min-width: 600px;
+    max-width: 1020px;
+
+
+    margin: 10px;
+    /** Abstand außen**/
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 50px 450px 650px 200px;
+
+
+
+}
+
+.item1 {
+    background: red;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: -1;
+
+}
+
+.item2 {
+    background: orange;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+
+}
+
+.item3 {
+    background: rgb(255, 255, 255);
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    padding: 10px;
+
+}
+
+
+
+.item5 {
+   /** background:blue;**/
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    padding: 10px;
+
+}
+
+.item6 {
+    background: purple;
+    grid-row: 5/5;
+    grid-column: 1/-1;
+    height: 50px;
+
+
+}
+/*------------------------------------------------------------------------- Seanca 8 Work Start----------------------------------------------------*/
+.viewallbody {
+    margin: 10px;
+    /** Abstand außen**/
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 40px;
+    padding-right: 20px;
+
+
+}
+
+.box1 {
+    background: rgb(255, 255, 255);
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+}
+
+.box2 {
+    background: rgb(255, 255, 255);
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    line-height: 35px;
+
+
+
+}
+
+
+
+.newsbody {
+    margin: 10px;
+    /** Abstand außen**/
+    display: grid;
+    padding-left: 20px;
+    grid-template-columns: 100%;
+    grid-auto-rows: minmax(100px, auto);
+
+
+
+
+}
+
+.newsbox1 {
+
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.newsbox2 {
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.newsbox3 {
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.newsbox4 {
+
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+/**--------------------------Schrift Start---------------------------------**/
+
+h1 {
+    font-size: 48px; 
+  }
+  
+  h2 {
+    font-size: 36px; 
+  }
+
+  h3 {
+    font-size: 28px; 
+  }
+
+  h4 {
+    font-size: 24px; 
+  }
+
+
+  h5 {
+    font-size: 20px; 
+  }
+
+  h6 {
+    font-size: 16px; 
+  }
+
+  p {
+    font-size: 0.875em; 
+  }
+
+  /**--------------------------Schrift Ende---------------------------------**/
+
+
+  /**--------------------------Button Start---------------------------------**/
+
+  * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+}
+
+button {
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 13px;
+	font-weight: bold;
+	color: black;
+	background: #ffcf4f;
+	border: 2px solid black;
+
+	transition: 500ms ease-in-out;
+}
+
+button:hover {
+	box-shadow: 20px 5px 0 black, -20px -5px 0 black;
+}
+
+button:focus {
+	outline: none;
+}
+
+/**--------------------------Button Ende---------------------------------**/
+
+
+/**--------------------------Featured Post Rahmen Start---------------------------------**/
+
+.rahmen { 
+    border: 1px solid silver; 
+    padding: 20px;
+}
+
+
+/**--------------------------Featured Post Rahmen Ende---------------------------------**/
+
+
+
+
+/*--------------------------------------------------------------------------- Seanca 8 Work End-----------------------------------------------*/
