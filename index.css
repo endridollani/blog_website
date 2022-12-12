@@ -116,3 +116,25 @@ header {
         padding: 10px;
     }
 }
+
+.team_container {
+    background-color: #6d6e76;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.btn {
+    padding: 18px;
+    font-weight: 700;
+    padding-right: 35px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: var(--primary-black);
+    background-color: var(--primary-yellow);
+    list-style-type: none;
+}
+
+.btn:hover {
+    background-color: var(--primary-light-grey);
+}
