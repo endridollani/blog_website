@@ -127,7 +127,7 @@ body{
 }
 .footer{
     font-family: 'Inter', sans-serif;
-    background-color:#24262b;
+    background-color:#232536;
 }
 .first-div{
     display: grid;
@@ -180,7 +180,7 @@ font-size: 13px;
 .input button{
     background-color:  orange;
     border: 0;
-
+width: 150px;
 
 }
 .input-in{
@@ -208,20 +208,15 @@ margin: 20px;
     }
 
     
-    .social-media a {
-    display: inline-block;
-        width: 40px;
-        height: 40px;
-   text-align: center;
-   align-items: center;
-   color: #24262b;
-   background-color: #434344;
-   border-radius: 50%;
-line-height: 40px;
+
    
+    
+    .media-images{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+      list-style-type: none;
     }
     
-    .social-media a :hover{
-        color:white;
-        padding-right: 10px;
-        }
+    
+   
