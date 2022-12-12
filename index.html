@@ -15,27 +15,53 @@
         />
         <link rel="stylesheet" href="./index.css" />
         <title>Blog</title>
+        <style>
+               h1{
+               display: block;
+               font-size: 1.5em;
+               margin-top: 0.83em;
+               margin-left: 0;
+               margin-right: 0;
+               font-size: bold; }
+
+               .myPage {  border-style:solid;
+               border-color: gray;
+               padding: 10px;
+               }
+
+               img {
+            border-radius: 4px;
+               padding-right: px;
+               display:block;
+                width: 500px; }
+
+               #button {
+               border:none;
+               color:black;
+               pad;ding:15px 32px;
+               text-align:left;
+               margin:4px 2px;
+               cursor:pointer; }
+               display: inline-block;
+               background-color: orange;
+        </style>
     </head>
 
     <body>
-        <header>
-            <div class="logo_container">
-                <strong id="kllapa">{</strong>
-                <strong id="finsweet">Finsweet</strong>
-            </div>
-
-            <div class="list_container">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact us</a></li>
-                </ul>
-
-                <div class="button">
-                    <button class="btn">Subscribe</button>
-                </div>
-            </div>
-        </header>
+        <h1>Featured Post</h1>
+        <div class="myPage">
+            <img src="./images/backgroudhouse.png" alt="backgroudhouse" />
+            <h2
+                >Lorem ipsum dolor sit amet, consectetur adipiscing<br />
+                elit, sed do eiusmod tempor.</h2
+            >
+            <p
+                >Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore<br />
+                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident.</p
+            >
+            <button id="button">Read More></button>
+        </div>
     </body>
 </html>
