@@ -32,3 +32,54 @@
     box-sizing: border-box;
     font-family: 'Sen', sans-serif;
 }
+
+body {
+    box-sizing: border-box;
+    font-family: "Sen";
+  }
+
+
+
+.author-grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 40px;
+  row-gap: 40px;
+  background-color: white;
+  padding: 40px 80px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+.title {
+    text-align: center;
+    font:bold;
+}
+
+.image111 {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    ul{
+      list-style: none;
+      margin: 0;
+      text-align: center;
+      padding: 10%;
+      }
+.img-style{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+p{
+  color: var(--primary-medium-grey);
+letter-spacing: 0;
+margin-top: 5px;
+}
+
+   
