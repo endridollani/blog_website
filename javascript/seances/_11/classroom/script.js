@@ -1,5 +1,4 @@
-'use strict';
-
+'use strict'
 /*
 ////////////////////////////////////
 // Linking a JavaScript File
@@ -211,7 +210,6 @@ GOOD LUCK 😀
 
 */
 
-
 // const massMark = 78;
 // const heightMark = 1.69;
 // const massJohn = 92;
@@ -324,7 +322,6 @@ GOOD LUCK 😀
 // } else {
 //     console.log('Someone else should drive...');
 // }
-
 
 ////////////////////////////////////
 // Coding Challenge #3
@@ -1057,3 +1054,61 @@ console.log(calcAverage([2, 3, 7]));
 console.log(calcAverage(totals));
 console.log(calcAverage(tips));
 */
+
+// for (let i = 0; i <= 20; i = i + 1) {
+//     console.log(i)
+// }
+
+// i = 0
+// i <= 20 PO
+// i = i + 1 qe do te thot: i = 0 + 1 = 1;
+// U ekzekutua 1 here console.log
+
+// i = 1
+// i <= 20 PO
+// i = i + 1 qe do te thot: i = 1 + 1 = 2;
+// U ekzekutua 2 here console.log
+
+// i = 2
+// i <= 20 PO
+// i = i + 1 qe do te thot: i = 2 + 1 = 3;
+// U ekzekutua 3 here console.log
+
+// ...
+
+// i = 20
+// i <= 20 PO
+// i = i + 1 qe do te thot: i = 20 + 1 = 21;
+// U ekzekutua 20 here console.log
+
+// i = 21
+// i <= 20 JO
+// Mbaron ekzekutimi.
+
+// const color = 'sdafafasdasfa'
+
+// switch (color) {
+//     case 'red':
+//         console.log('Color is red')
+//         break
+//     case 'blue':
+//         console.log('blue')
+//         break
+//     default:
+//         console.log('Nothing')
+//         break
+// }
+
+// let myNumber = 10
+
+// let i = 0
+
+// while (i < 10) {
+//     console.log(i)
+//     i = i + 1
+// }
+
+// do {
+//     console.log(i)
+//     i = i - 1
+// } while (i < 10)
