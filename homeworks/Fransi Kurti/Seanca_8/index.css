@@ -95,3 +95,52 @@ header {
 .btn:hover {
     background-color: var(--primary-light-grey);
 }
+@media screen and (max-width: 800px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+    .logo_container {
+        display: flex;
+
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+
+    .list_container {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .btn {
+        padding: 8px;
+    }
+    .list_container ul a {
+        padding: 4px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    header {
+        display: list-item;
+        height: 75px;
+    }
+    .logo_container {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+    }
+    .logo_container::before {
+        content: url('/icons/menu-hamburger-white.svg');
+        margin-top: 22px;
+        margin-left: 3px;
+    }
+    .list_container {
+        display: none;
+    }
+}
+
