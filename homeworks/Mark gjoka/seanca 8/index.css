@@ -1,3 +1,82 @@
-h1 {
-    color: red;
+.footer {
+    font-family: 'Inter', sans-serif;
+    background-color: #232536;
+}
+.first-div {
+    display: grid;
+}
+.second-div {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.second-div ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.second-div ul li {
+    list-style-type: none;
+    font-size: 13px;
+}
+.second-div ul li :hover {
+    color: aquamarine;
+}
+.second-div a {
+    text-decoration: none;
+    color: white;
+}
+.third-div {
+    background-color: #38393b;
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+.third-div h3 {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.input {
+    display: flex;
+    gap: 10px;
+}
+.input button {
+    background-color: orange;
+    border: 0;
+    width: 150px;
+}
+.input-in {
+    background-color: #38393b;
+    border: 2px solid #434344;
+    width: 250px;
+}
+.input button:hover {
+    padding-right: 10px;
+    color: aliceblue;
+}
+
+.fourth-div {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 20px;
+}
+.fourth-div p {
+    padding: 5px;
+    margin: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.media-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    list-style-type: none;
 }
