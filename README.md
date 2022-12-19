@@ -11,6 +11,91 @@ Every change merged in the main branch we will be able to see live _after some m
 
 [Blog Live 🚧](https://endridollani.github.io/blog_website/)
 
+## Easy to follow instructions
+
+### Step 1
+
+Fork this repository [blog_website](https://github.com/endridollani)
+
+### Step 2
+
+In your github profile , inside blog_webside , click green code button , and copy the url.
+
+After that open git bash in your laptop/pc desktop
+
+```bash
+git clone https://github.com/endridollani/blog_website.git
+```
+
+This command will create blog_website folder with its content.
+
+### Step 3
+
+Open vscode and open blog_blog website folder with vscode.
+
+Install the required extension.
+
+### Step 4
+
+Execute:
+
+```bash
+git remote -v
+```
+
+This command will show you the origin. It should be the url to your forked repo.
+
+Execute this line:
+
+```bash
+git remote add upstream https://github.com/endridollani/blog_website
+```
+
+**Origin** is your forked blog_webside in your github profile
+**Upstream** is endridollani/blog_website , the main repo.
+
+### Step 5
+
+Create a new branch where you will submitt your work.
+
+```bash
+git checkout -b task/emri-taskut
+```
+
+Execute
+
+```bash
+git branch
+```
+
+To see where you are (you should be inside the newly created branch, `not in the main branch`)
+
+### Step 6
+
+Implement the task and execute
+
+```bash
+git add .
+git commit -m "Descriptive Message"
+git merge main
+git push origin emri_branchit_ku_jeni
+```
+
+### Step 7
+
+Navigate to your github profile and create a new PR (Pull Request).
+
+Thats all!
+
+> **Note:** Everytime you start with a new task , in the main branch execute
+
+```bash
+git pull upstream main
+```
+
+So you are updated with the main repo main branch.
+After that create the branch you will be working on.
+
 ### Getting Started
 
 Before contributing in this repository follow the instructions listed below.
