@@ -313,7 +313,7 @@ p {
     -webkit-tap-highlight-color: transparent;
 }
 
-button {
+/* button {
     width: 150px;
     height: 50px;
     cursor: pointer;
@@ -332,7 +332,7 @@ button:hover {
 
 button:focus {
     outline: none;
-}
+} */
 
 /**--------------------------Button Ende---------------------------------**/
 
@@ -350,10 +350,9 @@ button:focus {
 header {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 80%;
     height: 75px;
     background-color: var(--primary-black);
-    border: 1px solid black;
 }
 
 .list_container {
@@ -372,7 +371,7 @@ header {
 .list_container ul a {
     display: flex;
     text-decoration: none;
-    padding: 15px;
+    padding: 5px;
     color: var(--primary-light-grey);
 }
 .list_container ul a:hover {
@@ -411,23 +410,52 @@ header {
     background-color: var(--primary-light-grey);
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 800px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+    .logo_container {
+        display: flex;
+
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+
+    .list_container {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .btn {
+        padding: 8px;
+    }
+    .list_container ul a {
+        padding: 4px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 420px) {
     header {
         display: list-item;
-        height: 150px;
+        height: 75px;
     }
     .logo_container {
         display: flex;
         justify-content: flex-start;
         padding: 0;
     }
-    .list_container {
-        display: flex;
-        padding-top: 17px;
-        padding-right: 5px;
+    .logo_container::before {
+        content: url('/icons/menu-hamburger-white.svg');
+        margin-top: 22px;
+        margin-left: 3px;
     }
-    .btn {
-        padding: 10px;
+    .list_container {
+        display: none;
     }
 }
 
@@ -711,7 +739,7 @@ p {
     -webkit-tap-highlight-color: transparent;
 }
 
-button {
+/* button {
     width: 150px;
     height: 50px;
     cursor: pointer;
@@ -730,7 +758,7 @@ button:hover {
 
 button:focus {
     outline: none;
-}
+} */
 
 /**--------------------------Button Ende---------------------------------**/
 
@@ -771,12 +799,12 @@ body {
     object-fit: cover;
     border-radius: 50%;
 }
-ul {
+/* ul {
     list-style: none;
     margin: 0;
     text-align: center;
     padding: 10%;
-}
+} */
 .img-style {
     margin-left: 10px;
     margin-top: 10px;
@@ -812,7 +840,7 @@ header {
 }
 .list_container ul a {
     text-decoration: none;
-    padding: 15px;
+    padding: 11px;
     color: var(--primary-light-grey);
 }
 .list_container ul a:hover {
