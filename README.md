@@ -11,6 +11,8 @@ Every change merged in the main branch we will be able to see live _after some m
 
 [Blog Live 🚧](https://endridollani.github.io/blog_website/)
 
+[Js-Demos](https://endridollani.github.io/blog_website/javascript/scripts/)
+
 ## Easy to follow instructions
 
 ### Step 1
