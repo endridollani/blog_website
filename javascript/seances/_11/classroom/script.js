@@ -280,7 +280,7 @@ GOOD LUCK 😀
 
 ////////////////////////////////////
 // Equality Operators: == vs. ===
-// const age = '18';
+// const age = '18';8
 // if (age === 18) console.log('You just became an adult :D (strict)');
 
 // if (age == 18) console.log('You just became an adult :D (loose)');
