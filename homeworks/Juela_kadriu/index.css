@@ -1,0 +1,129 @@
+:root {
+    /* COLOR PALETTE */
+    --primary-black: #232536;
+    --primary-yellow: #ffd050;
+    --primary-purple: #592ea9;
+    --primary-dark-grey: #4c4c4c;
+    --primary-medium-grey: #6d6e76;
+    --primary-light-grey: #f4f4f4;
+    --primary-lavander: #f4f0f8;
+    --primary-light-yellow: #fbf6ea;
+
+    /* FONT WEIGHT */
+    --regular: 400;
+    --bold: 700;
+    --extra-bold: 800;
+
+    /* TYPOGRAPHY */
+    --display-size: 64px;
+    --h1-size: 48px;
+    --h2-size: 36px;
+    --h3-size: 28px;
+    --h4-size: 24px;
+    --h5-size: 20px;
+    --h6-size: 16px;
+}
+
+/* OVERWRITING DEFAULTS */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Sen', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 14px 30px;
+    font-size: 10px;
+    background-color: rgb(6, 6, 63);
+    color: white;
+    height: 50px;
+    align-items: center;
+}
+.container:hover div{
+    cursor: pointer;
+}
+
+.subscribe{
+    width: 100px;
+    height: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(6, 6, 63);
+    cursor: pointer;
+    transition: 0.15s;
+}
+.subscribe:hover{
+    background-color: rgb(201, 197, 197);
+}
+.name{
+    width:500px;
+    font-size: 18px;
+}
+
+.image{
+    width: 1000px;
+    height: 500px;
+}
+.image-text-container{
+    position: relative;
+}
+.text{
+    position: absolute;
+    margin-top: -430px;
+    padding-left: 40px;
+    width: 590px;
+}
+.intro{
+    font-size: 12px;
+    color: white;
+    margin-bottom: 14px;
+}
+.title{
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.info{
+    display: flex;
+    font-size: 10px;
+    color: white;
+}
+.names{
+    margin-left: 3px;
+    color: rgb(175, 175, 33);
+    margin-bottom: 14px;
+}
+.description{
+    width: 400px;
+    font-size: 11px;
+    line-height: 15px;
+    color: white;
+}
+
+.button{
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 40px;
+}
+.read{
+    height: 38px;
+    width: 125px;
+    font-size: 11px;
+    background-color: rgb(212, 212, 30);
+    color: black;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.read:hover{
+    opacity: 0.6;
+}
